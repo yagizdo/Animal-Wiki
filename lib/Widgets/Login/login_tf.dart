@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class CustomTF extends StatelessWidget {
-  CustomTF({Key? key, required this.hint}) : super(key: key);
+  CustomTF({Key? key, required this.hint,required this.controller}) : super(key: key);
   String hint;
+  TextEditingController controller;
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      style: TextStyle(color: HexColor('#80CBEC')),
+      controller: controller,
+      style: TextStyle(color: HexColor('#80CBEC'),fontWeight: FontWeight.w600),
       decoration: InputDecoration(
         hintText: hint,
         hintStyle: TextStyle(color: HexColor('#80CBEC')),
