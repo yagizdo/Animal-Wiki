@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'Pages/login_page.dart';
+import 'Screens/login_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Animal Wiki',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily:  GoogleFonts.poppins().fontFamily,
         primarySwatch: Colors.blue,
       ),
       home: LoginPage(),

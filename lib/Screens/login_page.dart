@@ -1,4 +1,4 @@
-import 'package:animal_wiki/Pages/homepage.dart';
+import 'package:animal_wiki/Screens/homepage.dart';
 import 'package:animal_wiki/Widgets/Login/forgot_password.dart';
 import 'package:animal_wiki/Widgets/Login/get_started_btn.dart';
 import 'package:animal_wiki/Widgets/Login/login_btn.dart';
@@ -53,6 +53,8 @@ class LoginPage extends StatelessWidget {
                       padding: const EdgeInsets.only(top : 20.0),
                       child: ElevatedButton(
                         onPressed: () {
+                          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage()));
+                          /*
                           if(emailController.text == 'dokumaciyagiz@gmail.com') {
                             if(passwordController.text == '123'){
                               Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage()));
@@ -66,6 +68,7 @@ class LoginPage extends StatelessWidget {
                             print('Email ${emailController.text}');
                             print('Password ${passwordController.text}');
                           }
+                           */
                         },
                         style: ElevatedButton.styleFrom(
                             padding: EdgeInsets.zero,
