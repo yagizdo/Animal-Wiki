@@ -15,6 +15,8 @@ class HomePage extends StatelessWidget {
             bottom: TabBar(
               unselectedLabelColor: HexColor('#2DA9DE'),
               unselectedLabelStyle: TextStyle(fontSize: 12),
+              indicatorPadding: EdgeInsets.zero,
+              isScrollable: true,
               labelStyle: TextStyle(fontSize: 12),
               labelColor: Colors.white,
               tabs: const [
@@ -33,7 +35,6 @@ class HomePage extends StatelessWidget {
               ],
               indicator: RectangularIndicator(
                 verticalPadding: 8,
-                horizontalPadding: 8,
                 color: HexColor('#3E83A0'),
                 bottomLeftRadius: 20,
                 bottomRightRadius: 20,
@@ -71,7 +72,7 @@ class HomePage extends StatelessWidget {
                     color: Colors.white,
                   )),
               Expanded(
-                  flex: 3,
+                  flex: 4,
                   child: Container(
                     child: TabBarView(
                       children: [
