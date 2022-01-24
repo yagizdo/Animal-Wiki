@@ -7,7 +7,7 @@ class ListCard extends StatelessWidget {
   ListCard({Key? key,required this.subtitle,required this.imgasset}) : super(key: key);
   String subtitle;
   String imgasset;
-  String desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor vulputate duis velit accumsan. Non, dolor amet, eleifend elit. Nisl leo ac morbi feugiat in in elit. Mattis eget augue dolor aliquam. Ultrices eget bibendum dis id parturient purus arcu. Congue tellus cras in ac elementum augue. Sed integer accumsan suscipit malesuada.';
+  String desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor vulputate duis velit accumsan. Non, dolor amet, eleifend elit. Nisl leo ac morbi feugiat in in elit. Mattis eget augue dolor aliquam. Ultrices eget bibendum dis id parturient purus arcu. Congue tellus cras in ac elementum augue. Sed integer accumsan suscipit malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor vulputate duis velit accumsan. Non, dolor amet, eleifend elit. Nisl leo ac morbi feugiat in in elit. Mattis eget augue dolor aliquam. Ultrices eget bibendum dis id parturient purus arcu. Congue tellus cras in ac elementum augue. Sed integer accumsan suscipit malesuada.';
   @override
   Widget build(BuildContext context) {
     return Padding(
