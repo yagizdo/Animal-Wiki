@@ -52,10 +52,10 @@ class HomePage extends StatelessWidget {
                   child: Container(
                     color: Colors.white,
                     child: Padding(
-                      padding: const EdgeInsets.only(left : 55.0),
+                      padding: const EdgeInsets.only(left : 40.0),
                       child: TabBar(
                         unselectedLabelColor: HexColor('#2DA9DE'),
-                        unselectedLabelStyle: const TextStyle(fontSize: 12),
+                        unselectedLabelStyle: const TextStyle(fontSize: 10),
                         labelStyle: const TextStyle(fontSize: 12),
                         labelColor: Colors.white,
                         tabs: const [

@@ -46,9 +46,9 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 20.0),
-                      child: CustomTF(hint: 'Email',controller: emailController,),
+                      child: CustomTF(hint: 'Email',controller: emailController,obsecure: false,),
                     ),
-                    CustomTF(hint: 'Password',controller: passwordController,),
+                    CustomTF(hint: 'Password',controller: passwordController,obsecure: true,),
                      Padding(
                       padding: const EdgeInsets.only(top : 20.0),
                       child: ElevatedButton(
