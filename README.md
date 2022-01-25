@@ -31,7 +31,13 @@ Run app
 ```
 
 
-## Screenshots (will be added soon)
+## Screenshots
+### Login Page
+<img align="center" width="400" height="700" src="screenshots/loginpage.png">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Homepage
+<img align="center" width="400" height="700" src="screenshots/homepage.png">
+
+### Detail Page
+<img align="center" width="400" height="700" src="screenshots/detailpage.png">
 
